@@ -1,0 +1,100 @@
+    /* style note */
+
+    /* mobile */
+    @media(max-width: 787px) {
+      .text--title {
+        font-size: 11px !important;
+      }
+
+      .text--content {
+        font-size: 14px !important;
+      }
+
+      .container__bottom p {
+        display: inline-block;
+        text-align: center;
+        opacity: 0.5;
+        position: relative;
+        font-size: 11px;
+        left: 12px;
+      }
+    }
+
+
+    /* .background_Note {
+      background-color: whitesmoke;
+      background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
+    } */
+    #NotesWidgets {
+      display: flex;
+      justify-content: center;
+    }
+
+    .containerNote {
+      /* margin: 40px;
+      padding: 20px;
+      border-radius: 10px;
+      width: 280px;
+      background-color: #f5ead4;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+      color: black; */
+      padding: 15px;
+      border-radius: 10px;
+      background-color: #f5ead4;
+      -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+      color: black;
+    }
+
+    .container__topnav {
+      display: flex;
+      justify-content: space-between;
+      opacity: 0.4;
+    }
+
+    .text--title {
+      font-family: 'Josefin Sans', sans-serif;
+      opacity: 0.8;
+      font-size: 20px;
+      margin-top: 25px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .text--content {
+      font-family: 'Josefin Sans', sans-serif;
+      opacity: 0.6;
+      font-size: 18px;
+      line-height: 1.5;
+      margin: 0;
+      margin-bottom: 15px;
+      text-decoration: underline;
+      text-decoration-color: #ffdd9b;
+    }
+
+    .container__bottom p {
+      display: inline-block;
+      text-align: center;
+      opacity: 0.5;
+      position: relative;
+      /* left: 70px; */
+    }
+
+    .container__bottom i {
+      float: right;
+      color: black;
+      background-color: #ffdd9b;
+      border-radius: 50%;
+      font-size: 20px;
+      padding: 15px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+      transition: box-shadow 0.5s;
+    }
+
+    .container__bottom i:hover {
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    }
+
+    i:hover {
+      cursor: pointer;
+    }

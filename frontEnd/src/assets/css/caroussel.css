@@ -1,0 +1,128 @@
+.container-carousel {
+    width: 210px;
+    height: 140px;
+    position: relative;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+
+}
+@media(min-width: 787px) {
+    .container-carousel{
+        margin: 3rem 20rem;
+    }
+    .zoom {
+        /* transition: transform .2s; */
+        /* transform: scale(1.5); Animation */
+        left: 0rem !important;
+        top: 0rem !important;
+        /* transition: transform .2s; */
+        zoom: 1.4;
+      }
+  }
+  
+  @media(max-width: 787px) {
+    .container-carousel{
+        left: 47px;
+    }
+  }
+  
+
+.container-carousel .carousel {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: -webkit-transform 1s;
+    transition: -webkit-transform 1s;
+    transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s;
+}
+
+.container-carousel .carousel figure {
+    margin: 0;
+    display: block;
+    position: absolute;
+    width: 186px;
+    height: 116px;
+    left: 10px;
+    top: 10px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 116px;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.container-carousel .carousel figure:nth-of-type(1) {
+    -webkit-transform: rotateY(0deg) translateZ(288px);
+    transform: rotateY(0deg) translateZ(288px);
+    background-color: #dee2e6;
+}
+
+.container-carousel .carousel figure:nth-of-type(2) {
+    -webkit-transform: rotateY(40deg) translateZ(288px);
+    transform: rotateY(40deg) translateZ(288px);
+    background-color: #28a745;
+}
+
+.container-carousel .carousel figure:nth-of-type(3) {
+    -webkit-transform: rotateY(80deg) translateZ(288px);
+    transform: rotateY(80deg) translateZ(288px);
+    background-color: #dee2e6;
+}
+
+.container-carousel .carousel figure:nth-of-type(4) {
+    -webkit-transform: rotateY(120deg) translateZ(288px);
+    transform: rotateY(120deg) translateZ(288px);
+    background-color: #28a745;
+}
+
+.container-carousel .carousel figure:nth-of-type(5) {
+    -webkit-transform: rotateY(160deg) translateZ(288px);
+    transform: rotateY(160deg) translateZ(288px);
+    background-color: #dee2e6;
+}
+
+.container-carousel .carousel figure:nth-of-type(6) {
+    -webkit-transform: rotateY(200deg) translateZ(288px);
+    transform: rotateY(200deg) translateZ(288px);
+    background-color: #28a745;
+}
+
+.container-carousel .carousel figure:nth-of-type(7) {
+    -webkit-transform: rotateY(240deg) translateZ(288px);
+    transform: rotateY(240deg) translateZ(288px);
+    background-color: #dee2e6;
+}
+
+.container-carousel .carousel figure:nth-of-type(8) {
+    -webkit-transform: rotateY(280deg) translateZ(288px);
+    transform: rotateY(280deg) translateZ(288px);
+    background-color: #28a745;
+}
+
+.container-carousel .carousel figure:nth-of-type(9) {
+    -webkit-transform: rotateY(320deg) translateZ(288px);
+    transform: rotateY(320deg) translateZ(288px);
+    background-color: #dee2e6;
+}
+
+button.btn {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    left: -100px;
+    bottom: -100px;
+    border: 2px solid blue;
+    background-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: darkorange;
+    outline: none;
+}
+
+button.btn:nth-of-type(2) {
+    left: 100%;
+}

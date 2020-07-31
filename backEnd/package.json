@@ -1,0 +1,42 @@
+{
+  "name": "isoumei-internet",
+  "version": "1.0.0",
+  "description": "challenge back end",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch ./src/* --exec ts-node ./src/index.ts",
+    "start:watch": "nodemon --watch ./src/* --exec ts-node ./src/index.ts",
+    "start:prod": "pm2 start ./dist/index",
+    "build": "tsc"
+  },
+  "author": "elisheva tora eg",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express-serve-static-core": "^4.17.5",
+    "@types/multer": "^1.4.3",
+    "@types/node": "^13.13.4",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.8",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.10",
+    "multer": "^1.4.2",
+    "tiktok-scraper": "^1.1.9"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/express-serve-static-core": "^4.17.5",
+    "@types/mongoose": "^5.7.14",
+    "@types/multer": "^1.4.3",
+    "@types/node": "^13.13.4",
+    "@types/request": "^2.48.5",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.3"
+  }
+}
